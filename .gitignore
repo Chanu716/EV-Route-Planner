@@ -28,8 +28,8 @@ dist-ssr
 .env.local
 .env.production
 
-# MongoDB data
-data/
+# MongoDB data (root level only)
+/data/
 *.wt
 *.lock
 mongod.lock
