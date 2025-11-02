@@ -2,6 +2,13 @@
 
 A comprehensive web application for electric vehicle (EV) owners that optimizes route planning and charging station recommendations using machine learning and real-time data.
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Chanu716/EV-Route-Planner)
+
+## 🌐 Live Demo
+
+**Deployment Status**: Ready for Netlify deployment
+**Repository**: [GitHub](https://github.com/Chanu716/EV-Route-Planner)
+
 ## 🚗 Overview
 
 This application helps EV drivers plan their routes efficiently by:
@@ -190,7 +197,35 @@ npm run build
 
 The production build will be created in the `dist/` directory.
 
-## 🔑 Key Features
+## � Deployment
+
+### Deploy to Netlify
+
+This application is configured for easy deployment on Netlify:
+
+1. **Quick Deploy**: Click the "Deploy to Netlify" button at the top of this README
+2. **Manual Deploy**: Follow the comprehensive guide in [DEPLOYMENT.md](DEPLOYMENT.md)
+
+**Required Environment Variables for Netlify:**
+- `MONGODB_URI` - MongoDB Atlas connection string
+- `JWT_SECRET` - Your secure JWT secret key
+- `VITE_GOOGLE_MAPS_API_KEY` - Google Maps API key
+
+**Files for Deployment:**
+- `netlify.toml` - Netlify configuration
+- `public/_redirects` - SPA routing configuration
+- `netlify/functions/` - Serverless functions
+
+For detailed deployment instructions, see **[DEPLOYMENT.md](DEPLOYMENT.md)**
+
+### Alternative Deployment Options
+
+- **Vercel**: Supports Vite + React applications
+- **Render**: Full backend support with Express.js
+- **Railway**: Express.js + MongoDB support
+- **AWS/Azure/GCP**: Container-based deployment with Docker
+
+## �🔑 Key Features
 
 ### 1. **Route Optimization**
 - Real-time route calculation using Google Maps API
